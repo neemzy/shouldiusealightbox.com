@@ -1,0 +1,13 @@
+{
+  "name": "shouldiusealightbox.com",
+  "version": "0.0.0",
+  "authors": [
+    "neemzy <tom.panier@free.fr>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "fancybox": "~2.1.5",
+    "jquery": "~2.1.0"
+  }
+}

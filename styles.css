@@ -1,0 +1,46 @@
+:root {
+    background-color: #CAD3F3;
+}
+
+.fancybox-lock body {
+    overflow: visible !important;
+}
+
+.fancybox-lock .fancybox-overlay {
+    overflow-y: auto;
+}
+
+.title {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 2em;
+    line-height: 2em;
+    margin: auto;
+    font-family: "The Girl Next Door", cursive;;
+    font-size: 1em;
+    text-align: center;
+}
+
+.title a {
+    text-decoration: none;
+    color: #332764;
+    -webkit-transition: color .1s ease-in-out;
+    -moz-transition: color .1s ease-in-out;
+    -ms-transition: color .1s ease-in-out;
+    transition: color .1s ease-in-out;
+}
+
+.title a:hover {
+    color: #3C3C9B;
+}
+
+#content {
+    display: none;
+    padding: .2em;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 5em;
+    font-weight: bold;
+}
